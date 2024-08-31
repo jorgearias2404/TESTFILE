@@ -30,6 +30,7 @@
  width: 50px;
   height: 50px;
   border-radius: 10px;
+  margin-right: 40px;
 }
  .container
  {     
@@ -73,6 +74,28 @@
  {
     border-radius: 30px;
  } 
+ .links{
+    display: flex;
+    padding: 15px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(44, 43, 43);
+  border: 2px solid #2DB46A;
+  width: 270px;
+  height: auto;
+  border-radius: 30px;
+ 
+  
+  
+ }
+ .item
+ {
+    margin-left:10px ;
+    margin-right:10px ;
+    color:rgb(45, 180, 106);
+    font-size: 30px;
+ }
      
  .center
  {
@@ -105,8 +128,15 @@
         color:inherit;
         text-decoration: none;
     }
+    a:hover{
+
+        color:rgb(132, 255, 187);
+        border-radius: 20px;
+    }
     span{
-      
+  font-size: 25px;
+  color:rgb(45, 180, 106);
+   
     }
     
      #imagen_ejemplo{
@@ -174,20 +204,18 @@
 
    <footer>
     <h1 class="SUB_TITTLE">Sin mucho mas que agregar espero que haya sido de su agrado</h1>
-    <p>pueden seguirme en :</p>
-    <span>
-        <a href="">Git Hub</a>
-     </span>
-    
-     <span>
-        <img src="https://marketizados.com/wp-content/uploads/2023/11/765900ba9-article-200807-github-gitguardbody-text.jpg"class="imagenTitulo" alt="git hub">
-    </span>
-     
-    <span>
-        <a href="">instgram</a>
-     </span>
-     <span>
-       <img src="" alt="">
-     </span>
-   </footer>
+    <h2>pueden seguirme en :</h2>
+    <div class="center">
+        <div class="links">
+           
+                <a href="https://github.com/jorgearias2404" class="item">Git Hub</a>
+             
+                <a href="https://www.instagram.com/jorgo_x/" class="item">Instagram</a>
+            
+        </div>
+    </div>
+   
+   
+   
+    </footer>
 </html>
